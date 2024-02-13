@@ -37,6 +37,7 @@ const Dashboard = () => {
                 sx={{ textAlign: 'center' }}
               >
                 <img
+                  alt='ticker'
                   src='../assets/ticker.png'
                   width={'40px'}
                   height={'33px'}
@@ -63,6 +64,7 @@ const Dashboard = () => {
                 sx={{ textAlign: 'center' }}
               >
                 <img
+                  alt='contract'
                   src='../assets/contract.png'
                   width={'40px'}
                   height={'33px'}
@@ -91,6 +93,7 @@ const Dashboard = () => {
                 }}
               >
                 <img
+                  alt='volume'
                   src='../assets/volume.png'
                   width={'40px'}
                   height={'33px'}
@@ -119,6 +122,7 @@ const Dashboard = () => {
                 }}
               >
                 <img
+                  alt='high risk'
                   src='../assets/highRisk.png'
                   width={"xl:'40px',sm:'20px'"}
                   height={'33px'}

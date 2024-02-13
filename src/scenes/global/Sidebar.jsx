@@ -3,22 +3,19 @@ import { ProSidebar, Menu } from 'react-pro-sidebar';
 import {
   Box,
   Typography,
-  useTheme,
   Select,
   MenuItem,
   FormHelperText,
   FormControl,
   InputLabel,
   ListItemText,
-  Button,
 } from '@mui/material';
 import 'react-pro-sidebar/dist/css/styles.css';
-// import { tokens } from '../../theme';
 import LayersOutlinedIcon from '@mui/icons-material/LayersOutlined';
 import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined';
 
 const Sidebar = () => {
-  const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isCollapsed] = useState(false);
   const [careType, setCareType] = useState('');
 
   const handleChange = (event) => {

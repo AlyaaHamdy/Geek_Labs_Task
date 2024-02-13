@@ -1,4 +1,4 @@
-import { Box, Typography, Button, Divider } from '@mui/material';
+import { Box, Typography, Divider } from '@mui/material';
 
 const Navbar = () => {
   return (
@@ -26,7 +26,6 @@ const Navbar = () => {
           style={{
             backgroundColor: '#554DB7',
             borderRadius: '35px',
-            width: '200px',
             color: '#FFFFFF',
             width: '100px',
             border: 'none',
@@ -65,7 +64,6 @@ const Navbar = () => {
           style={{
             backgroundColor: '#554DB7',
             borderRadius: '35px',
-            width: '200px',
             color: '#FFFFFF',
             width: '100px',
             border: 'none',
@@ -103,12 +101,9 @@ const Navbar = () => {
           style={{
             backgroundColor: '#554DB7',
             borderRadius: '35px',
-            width: '200px',
-
             color: '#FFFFFF',
             width: '100px',
             border: 'none',
-
             cursor: 'pointer',
           }}
         >
