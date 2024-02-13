@@ -21,7 +21,7 @@ const Topbar = () => {
           src={'../../assets/street suite logo-04.png'}
           sx={{
             // bgcolor: 'white',
-            ml: { xs: 0, md: '60px' },
+            // ml: { md: '20px', xs: 0, md: '60px' },
             width: { xs: '50px', md: 400 },
             height: '100px',
             display: { sm: 'block' },

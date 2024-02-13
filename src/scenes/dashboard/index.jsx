@@ -172,7 +172,7 @@ const Dashboard = () => {
                     xl: '24px',
                     lg: '20px',
                     md: '18px',
-                    sm: '10px',
+                    sm: '15px',
                   },
                   fontFamily: 'Nunito Sans',
                   ml: '30px',

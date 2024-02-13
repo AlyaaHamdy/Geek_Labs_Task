@@ -15,8 +15,8 @@ const Navbar = () => {
         width: {
           xl: '1850px',
           lg: '1400px',
-          md: '100%',
-          sm: '100%',
+          md: '1000px',
+          sm: '700px',
           xs: '600px',
         },
       }}
@@ -45,7 +45,7 @@ const Navbar = () => {
               xl: '48px',
               lg: '38px',
               md: '30px',
-              sm: '38px',
+              sm: '30px',
               xs: '30px',
             },
           }}
@@ -82,7 +82,7 @@ const Navbar = () => {
               xl: '48px',
               lg: '38px',
               md: '30px',
-              sm: '38px',
+              sm: '30px',
               xs: '30px',
             },
           }}
@@ -119,7 +119,7 @@ const Navbar = () => {
               xl: '48px',
               lg: '38px',
               md: '30px',
-              sm: '38px',
+              sm: '30px',
               xs: '30px',
             },
           }}
@@ -145,7 +145,7 @@ const Navbar = () => {
               xl: '48px',
               lg: '38px',
               md: '30px',
-              sm: '38px',
+              sm: '30px',
               xs: '30px',
             },
           }}
@@ -171,7 +171,7 @@ const Navbar = () => {
               xl: '48px',
               lg: '38px',
               md: '30px',
-              sm: '38px',
+              sm: '30px',
               xs: '30px',
             },
           }}

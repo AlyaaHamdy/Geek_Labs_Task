@@ -27,12 +27,18 @@ function App() {
               sx={{
                 m: '40px',
                 mt: '-15px',
-                height: { xl: '73vh', md: '100%', sm: '100%', xs: '130vh' },
+                height: {
+                  xl: '73vh',
+                  lg: '85vh',
+                  md: '100%',
+                  sm: 'auto',
+                  xs: '160vh',
+                },
                 width: {
                   xl: '1850px',
                   lg: '1400px',
-                  md: '100%',
-                  sm: '100%',
+                  md: '1000px',
+                  sm: '700px',
                   xs: '600px',
                 },
               }}
